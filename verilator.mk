@@ -25,7 +25,7 @@ VERILATOR_FLAGS =              \
 	--compiler clang           \
 	-sv                        \
 	--top-module $(TOP_MODULE) \
-	$(VSRC)                    \
+	-f $(PROJECT_HOME)/src/Source.list \
 	$(SIM_CXX_FILES)           \
 	$(VEXTRA_FLAGS)            \
 	--output-split 30000       \

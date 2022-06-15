@@ -1,0 +1,2 @@
+$PROJECT_HOME/src/Core/Package/riscv_pkg.sv
+$PROJECT_HOME/src/Core/Package/core_pkg.sv

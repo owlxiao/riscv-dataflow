@@ -1,0 +1,2 @@
+-f $PROJECT_HOME/src/Core/Source.list
+-f $PROJECT_HOME/src/Top/Source.list
