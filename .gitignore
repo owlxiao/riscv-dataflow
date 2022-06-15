@@ -1,0 +1,5 @@
+# vscode 
+.vscode/
+
+# Default Build dir
+./build
