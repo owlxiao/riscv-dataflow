@@ -3,8 +3,8 @@ module SimTop(
   input  logic i_reset
 );
 
-  core_if core_if(i_clock, i_reset);
+  CC_if  CC();
   
-  core u_core(core_if.Master);
+  Core u_core(i_clock, i_reset, CC);
 
 endmodule

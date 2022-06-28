@@ -1,4 +1,5 @@
 -f $PROJECT_HOME/src/Core/Package/Source.list
 -f $PROJECT_HOME/src/Core/Interface/Source.list
 
-$PROJECT_HOME/src/Core/core.sv
+$PROJECT_HOME/src/Core/Fetch.sv
+$PROJECT_HOME/src/Core/Core.sv

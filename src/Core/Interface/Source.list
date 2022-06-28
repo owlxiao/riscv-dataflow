@@ -1,1 +1,2 @@
-$PROJECT_HOME/src/Core/Interface/core_if.sv
+$PROJECT_HOME/src/Core/Interface/CC_if.sv
+$PROJECT_HOME/src/Core/Interface/fetch_if.sv
