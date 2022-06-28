@@ -7,4 +7,8 @@ module Core
    CC_if.CoProcessor CC
 );
 
+fetch_if fetchIF(clock, reset);
+
+Fetch Fetch(fetchIF, CC);
+
 endmodule
